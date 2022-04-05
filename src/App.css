@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+ img{border:0}
+ ul,li{ list-style: none;}
+ a{text-decoration: none;}
+
+
+
+.header{ width: 100%; height: 180px;
+         display: flex; flex-direction: column; 
+         align-items: center;
+         background-color:rgb(182, 182, 182)}
+.header .h_top{
+        width:1200px; height: 140px;
+        background-color: antiquewhite;
+}
+.header .h_bom{
+        width:1200px; height: 40px;
+        background-color: azure;
+}
+
+.header .h_bom ul{width: 900px;}
+.header .h_bom li{ float: left; width: 150px; height: 40px;
+                   display: flex; justify-content:center; align-items: center;}
