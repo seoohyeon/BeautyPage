@@ -14,10 +14,10 @@ function BestItem(){
     const items = [    
         {
             id: 1,
-            src:'https://images-kr.amoremall.com/products/111170000339/111170000339_00.png?1647844696293',
-            maintitle: '설화수1',
+            src:'../images/product1.png',
+            maintitle: '설화1',
             subtitle: 'NEW 윤조에센스 120ml 대용량 리미티드 에디션',
-            price: '15000 만원',
+            price: '15000원',
             review:'★★★'
         },
         {
@@ -113,11 +113,11 @@ function BestItem(){
     return(
         <>
         <ItemBlock>
-            <img src={items[0].src} alt={items[0].maintitle} width="50%" />
-            <h3>{items[0].maintitle} </h3>
-            <p>{items[0].subtitle}</p>
-            <p>{items[0].price}</p>
-            <p>{items[0].review}</p>
+            <img src={items[1].src} alt={items[1].maintitle} width="50%" />
+            <h3>{items[1].maintitle} </h3>
+            <p>{items[1].subtitle}</p>
+            <p>{items[1].price}</p>
+            <p>{items[1].review}</p>
             <div><span>사은품</span><span>기프트가드</span></div>
         </ItemBlock>
        
